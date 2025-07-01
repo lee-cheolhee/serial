@@ -53,6 +53,3 @@ install(TARGETS ${PROJECT_NAME}
 install(FILES include/serial/serial.h include/serial/v8stdint.h
     DESTINATION include/serial)
 
-if(EXISTS "${CMAKE_SOURCE_DIR}/tests/CMakeLists.txt")
-    add_subdirectory(tests)
-endif()
